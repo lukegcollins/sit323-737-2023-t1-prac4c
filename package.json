@@ -1,0 +1,21 @@
+{
+  "name": "express-arithmetic-api",
+  "version": "1.0.0",
+  "description": "An application for performing arithmetic operations and demonstrating various authentication methods in node.JS.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js",
+    "stop": "lsof -ti :3000 | xargs kill"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukegcollins/sit323-737-2023-t1-prac4c.git"
+  },
+  "author": "GitHub @LukeGCollins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukegcollins/sit323-737-2023-t1-prac4c/issues"
+  },
+  "homepage": "https://github.com/lukegcollins/sit323-737-2023-t1-prac4c/#readme"
+}
